@@ -16,3 +16,9 @@ readme = "README.md"
 dependencies = [
 
 ]
+
+[project.urls]
+Repository = "https://github.com/Ray-Hsueh/BallsDex-Broadcast-Pack"
+Documentation = "https://github.com/Ray-Hsueh/BallsDex-Broadcast-Pack#readme"
+Issues = "https://github.com/Ray-Hsueh/BallsDex-Broadcast-Pack/issues"
+Funding = "https://ko-fi.com/rayhsueh"
