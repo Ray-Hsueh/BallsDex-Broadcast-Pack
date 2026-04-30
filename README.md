@@ -1,5 +1,7 @@
 # BallsDex Broadcast Pack
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/rayhsueh)
+
+Or you can browse my [shop](https://ko-fi.com/rayhsueh/shop) for more helpful packages.
 > [!NOTE]
 > Licensed under Apache 2.0
 
