@@ -56,6 +56,7 @@ class Broadcast(commands.Cog):
 
 
     @broadcast.command(name="channels", description="List all ball spawn channels")
+    @checks.is_staff()
     async def list_channels(self, ctx: commands.Context):
         await ctx.defer()
         channels = await self.get_broadcast_channels()
@@ -127,6 +128,7 @@ class Broadcast(commands.Cog):
         app_commands.Choice(name="Text Only", value="text"),
         app_commands.Choice(name="Image Only", value="image")
     ])
+    @checks.is_staff()
     async def broadcast_server(
         self, 
         ctx: commands.Context, 
@@ -233,6 +235,7 @@ class Broadcast(commands.Cog):
         user_ids="A comma-separated list of user IDs",
         anonymous="Whether to hide the sender's name"
     )
+    @checks.is_staff()
     async def broadcast_dm(
         self, 
         ctx: commands.Context, 
